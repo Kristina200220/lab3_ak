@@ -1,29 +1,29 @@
-#### Лабороторна робота №3
+# Лабороторна робота №3
 Simple program for simple list manipulation.
-### Використання
-## --help (-h)
+## Використання
+### --help (-h)
 Simply showing the manual for the program.
-# Example
+#### Example
 ./simple_program --help
-## --version (-v) 
+### --version (-v) 
 Simply showing program version.
-# Example
+#### Example
 ./simple_program --version
-## --create (-i)
+### --create (-i)
 Simply creation of a list of numbers.
-# Example
+#### Example
 ./simple_program -i1,2,3
 ./simple_program -create=1,2,3
-## --sum (-s)
+### --sum (-s)
 Simply summing the first n members in the list (all if n is not specified).
-# Example
+#### Example
 ./simple_program --create=1,2,3 --sum
 ./simple_program --create=1,2,3 -s2
-## --count (-c)
+### --count (-c)
 Simply counting the number of members in the list.
-# Example
+#### Example
 ./simple_program -i1,2,3 -c
-## --reverse (-r)
+### --reverse (-r)
 Simply reversing order of all members in the list.
-# Example
+#### Example
 ./simple_program -i1,2,3 -r
